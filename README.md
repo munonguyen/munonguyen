@@ -1,12 +1,6 @@
 <div align="center">
-  <img width="100%" src="./oke1.gif" alt="Nguyen The Nam hero GIF" />
+  <img width="100%" src="./assets/hero-banner.gif" alt="Nguyen The Nam hero banner" />
 </div>
-
-<h1 align="center">Nguyen The Nam</h1>
-
-<p align="center">
-  <strong>Full-stack builder / UI-UX learner / Dark</strong>
-</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=F7B787&center=true&vCenter=true&width=760&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
@@ -22,7 +16,7 @@
 
 <table>
   <tr>
-    <td width="64%" valign="top">
+    <td width="72%" valign="top">
       <pre>
 ┌───────────────────────────── SYSTEM STATUS ─────────────────────────────┐
 │ Name      : Nguyen The Nam                                             │
@@ -34,19 +28,18 @@
 └─────────────────────────────────────────────────────────────────────────┘
       </pre>
     </td>
-    <td width="36%" valign="top">
-      <h3>Intro</h3>
-      <p>
-        Student developer focused on software engineering, full-stack
-        products, and clean interface design.
-      </p>
-      <p>
-        I like turning small ideas into practical products, then refining
-        the flow, structure, and visual details until they feel usable.
-      </p>
+    <td width="28%" align="center" valign="top">
+      <img width="92%" src="./Working%20Work%20From%20Home%20GIF.gif" alt="Working Work From Home GIF" />
     </td>
   </tr>
 </table>
+
+<p align="center">
+  Student developer focused on software engineering, full-stack products,
+  and clean interface design. I like turning small ideas into practical
+  products, then refining the flow, structure, and visual details until
+  they feel usable.
+</p>
 
 ## 01 / ABOUT ME
 
