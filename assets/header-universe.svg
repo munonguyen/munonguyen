@@ -1,142 +1,542 @@
-<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="140" y1="70" x2="1440" y2="470" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#040814"/>
-      <stop offset="0.42" stop-color="#0A1330"/>
-      <stop offset="0.72" stop-color="#101C3F"/>
-      <stop offset="1" stop-color="#19112E"/>
-    </linearGradient>
-    <radialGradient id="nebulaTeal" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 196) rotate(11) scale(520 300)">
-      <stop offset="0" stop-color="#4CF2E4" stop-opacity="0.55"/>
-      <stop offset="0.45" stop-color="#1BC7C3" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#1BC7C3" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="nebulaOrange" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1290 202) rotate(160) scale(410 310)">
-      <stop offset="0" stop-color="#F6A15F" stop-opacity="0.46"/>
-      <stop offset="0.52" stop-color="#F97316" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="planetFill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1188 212) rotate(134) scale(194 188)">
-      <stop offset="0" stop-color="#D9FFF8"/>
-      <stop offset="0.26" stop-color="#6FEFE3"/>
-      <stop offset="0.58" stop-color="#1BA7C9"/>
-      <stop offset="0.86" stop-color="#1A3D73"/>
-      <stop offset="1" stop-color="#0B1731"/>
-    </radialGradient>
-    <radialGradient id="planetShadow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1252 294) rotate(-148) scale(170 150)">
-      <stop offset="0" stop-color="#051022" stop-opacity="0"/>
-      <stop offset="1" stop-color="#030814" stop-opacity="0.78"/>
-    </radialGradient>
-    <linearGradient id="ringGradient" x1="972" y1="246" x2="1394" y2="246" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7EF8EB" stop-opacity="0.08"/>
-      <stop offset="0.26" stop-color="#CBFFF8" stop-opacity="0.85"/>
-      <stop offset="0.64" stop-color="#F4B179" stop-opacity="0.84"/>
-      <stop offset="1" stop-color="#F97316" stop-opacity="0.08"/>
-    </linearGradient>
-    <linearGradient id="panelStroke" x1="232" y1="140" x2="812" y2="400" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#A7FFF2" stop-opacity="0.8"/>
-      <stop offset="0.52" stop-color="#7ED0FF" stop-opacity="0.36"/>
-      <stop offset="1" stop-color="#FFB37C" stop-opacity="0.44"/>
-    </linearGradient>
-    <linearGradient id="titleFill" x1="276" y1="178" x2="784" y2="330" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F5FBFF"/>
-      <stop offset="0.5" stop-color="#D2FFF9"/>
-      <stop offset="1" stop-color="#FFD7B8"/>
-    </linearGradient>
-    <filter id="blurSoft" x="-200" y="-200" width="2000" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="44"/>
-    </filter>
-    <filter id="glow" x="-200" y="-200" width="2000" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="shadow" x="-200" y="-200" width="2000" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#020613" flood-opacity="0.6"/>
-    </filter>
-    <clipPath id="planetClip">
-      <circle cx="1192" cy="246" r="126"/>
-    </clipPath>
-  </defs>
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="1600" height="560">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="frame">
+      <style>
+        :root {
+          --bg-0: #020611;
+          --bg-1: #071327;
+          --bg-2: #0b1d42;
+          --bg-3: #1b1132;
+          --teal-0: #9ffdf4;
+          --teal-1: #49e7da;
+          --teal-2: #1ca3da;
+          --orange-0: #ffd6ad;
+          --orange-1: #f59c63;
+          --text-0: #f4fbff;
+          --text-1: #d6e7f6;
+          --text-2: #9fb6c8;
+          --map: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20420%22%3E%3Cg%20fill%3D%22%23dffff8%22%20fill-opacity%3D%22.78%22%3E%3Cpath%20d%3D%22M66%20142c28-34%2076-55%20126-48%2044%206%2078%2028%2090%2054%2018%204%2034%2016%2038%2033%209%2036-26%2078-80%2096-74%2025-162-2-201-61-21-31-16-51%2027-74z%22%2F%3E%3Cpath%20d%3D%22M262%20108c24-18%2064-24%2092-14%2036%2014%2057%2050%2039%2082-16%2028-62%2042-95%2029-34-12-57-56-36-97z%22%2F%3E%3Cpath%20d%3D%22M438%20118c42-28%20104-32%20146-12%2039%2018%2064%2058%2055%2091-8%2031-42%2054-88%2060-59%208-129-10-159-42-28-30-16-72%2046-97z%22%2F%3E%3Cpath%20d%3D%22M626%20170c30-16%2074-18%20102-6%2034%2016%2050%2045%2042%2071-9%2028-39%2051-84%2060-52%2011-104%200-123-26-26-34%207-79%2063-99z%22%2F%3E%3Cpath%20d%3D%22M756%20130c28-12%2064-8%2084%2011%2022%2022%2018%2053-9%2076-29%2024-74%2029-102%2012-30-18-29-54%2027-99z%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23aff7ef%22%20fill-opacity%3D%22.52%22%3E%3Cpath%20d%3D%22M180%20226c34-18%2082-18%20116%201%2023%2012%2025%2030%204%2047-31%2026-92%2035-137%2019-37-14-31-44%2017-67z%22%2F%3E%3Cpath%20d%3D%22M540%20246c36-18%2088-16%20121%205%2022%2015%2020%2034-6%2051-36%2024-104%2028-143%208-34-18-19-47%2028-64z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+          --clouds: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20420%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.62%22%3E%3Cellipse%20cx%3D%22150%22%20cy%3D%22112%22%20rx%3D%22108%22%20ry%3D%2230%22%2F%3E%3Cellipse%20cx%3D%22252%22%20cy%3D%22166%22%20rx%3D%2286%22%20ry%3D%2224%22%2F%3E%3Cellipse%20cx%3D%22372%22%20cy%3D%2294%22%20rx%3D%2292%22%20ry%3D%2226%22%2F%3E%3Cellipse%20cx%3D%22520%22%20cy%3D%22150%22%20rx%3D%22112%22%20ry%3D%2228%22%2F%3E%3Cellipse%20cx%3D%22678%22%20cy%3D%22110%22%20rx%3D%2294%22%20ry%3D%2224%22%2F%3E%3Cellipse%20cx%3D%22786%22%20cy%3D%22176%22%20rx%3D%2282%22%20ry%3D%2220%22%2F%3E%3Cellipse%20cx%3D%22504%22%20cy%3D%22258%22%20rx%3D%22126%22%20ry%3D%2234%22%2F%3E%3Cellipse%20cx%3D%22250%22%20cy%3D%22278%22%20rx%3D%22112%22%20ry%3D%2228%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+        }
 
-  <rect x="28" y="26" width="1544" height="468" rx="34" fill="url(#bg)"/>
-  <rect x="28" y="26" width="1544" height="468" rx="34" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
 
-  <g filter="url(#blurSoft)">
-    <ellipse cx="462" cy="194" rx="328" ry="176" fill="url(#nebulaTeal)"/>
-    <ellipse cx="1294" cy="196" rx="268" ry="182" fill="url(#nebulaOrange)"/>
-    <ellipse cx="1162" cy="370" rx="316" ry="86" fill="#0B1229" fill-opacity="0.9"/>
-  </g>
+        .frame {
+          width: 1600px;
+          height: 560px;
+          padding: 22px 26px 24px;
+          background: transparent;
+          font-family: "Avenir Next", "Segoe UI", Arial, sans-serif;
+        }
 
-  <path d="M74 415C256 360 392 410 536 392C698 372 756 312 954 320C1127 327 1256 394 1526 434" stroke="#6AE7DA" stroke-opacity="0.18" stroke-width="2"/>
-  <path d="M108 444C268 394 394 441 556 425C714 410 812 356 990 363C1168 370 1328 431 1489 453" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
-  <path d="M968 124C1126 88 1249 92 1401 141" stroke="#DDF9FF" stroke-opacity="0.16" stroke-width="2"/>
+        .scene {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          border-radius: 38px;
+          background:
+            radial-gradient(circle at 24% 28%, rgba(69, 232, 221, 0.12), transparent 28%),
+            radial-gradient(circle at 80% 22%, rgba(245, 156, 99, 0.14), transparent 26%),
+            radial-gradient(circle at 54% 88%, rgba(64, 97, 212, 0.14), transparent 30%),
+            linear-gradient(115deg, var(--bg-0) 0%, var(--bg-1) 32%, var(--bg-2) 64%, var(--bg-3) 100%);
+          color: var(--text-0);
+          isolation: isolate;
+        }
 
-  <g opacity="0.9">
-    <circle cx="178" cy="114" r="2.3" fill="#F8FCFF"/>
-    <circle cx="232" cy="87" r="1.5" fill="#9AEDEB"/>
-    <circle cx="304" cy="120" r="1.8" fill="#F8FCFF"/>
-    <circle cx="372" cy="92" r="1.6" fill="#FFD9BF"/>
-    <circle cx="486" cy="86" r="1.7" fill="#F8FCFF"/>
-    <circle cx="540" cy="126" r="2" fill="#9AEDEB"/>
-    <circle cx="692" cy="110" r="1.4" fill="#F8FCFF"/>
-    <circle cx="768" cy="72" r="1.9" fill="#F8FCFF"/>
-    <circle cx="862" cy="118" r="1.6" fill="#FFD9BF"/>
-    <circle cx="982" cy="98" r="1.6" fill="#F8FCFF"/>
-    <circle cx="1086" cy="72" r="2.2" fill="#9AEDEB"/>
-    <circle cx="1264" cy="92" r="1.8" fill="#F8FCFF"/>
-    <circle cx="1386" cy="116" r="1.5" fill="#F8FCFF"/>
-    <circle cx="1448" cy="88" r="2" fill="#FFD9BF"/>
-    <circle cx="1478" cy="144" r="1.5" fill="#9AEDEB"/>
-    <circle cx="1324" cy="170" r="1.2" fill="#F8FCFF"/>
-    <circle cx="1176" cy="88" r="1.3" fill="#F8FCFF"/>
-  </g>
+        .scene::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: 38px;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          pointer-events: none;
+        }
 
-  <g filter="url(#shadow)">
-    <rect x="168" y="118" width="664" height="286" rx="28" fill="#0B1228" fill-opacity="0.42"/>
-    <rect x="168" y="118" width="664" height="286" rx="28" stroke="url(#panelStroke)" stroke-opacity="0.9"/>
-  </g>
+        .space,
+        .stars,
+        .dust,
+        .trail,
+        .planet-scene,
+        .hero {
+          position: absolute;
+        }
 
-  <rect x="196" y="146" width="152" height="34" rx="17" fill="#0F1D3A" fill-opacity="0.84" stroke="#6CE8DC" stroke-opacity="0.34"/>
-  <circle cx="223" cy="163" r="5" fill="#6CE8DC"/>
-  <circle cx="241" cy="163" r="5" fill="#9EEBFF"/>
-  <circle cx="259" cy="163" r="5" fill="#FFB07B"/>
-  <text x="286" y="168" fill="#D8F7FF" fill-opacity="0.88" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.8">ORBITAL PROFILE</text>
+        .space {
+          inset: 0;
+          background:
+            radial-gradient(circle at 18% 24%, rgba(44, 235, 224, 0.2), transparent 24%),
+            radial-gradient(circle at 70% 80%, rgba(92, 96, 255, 0.12), transparent 24%),
+            radial-gradient(circle at 88% 18%, rgba(255, 174, 123, 0.12), transparent 18%);
+          filter: blur(0.2px);
+        }
 
-  <text x="196" y="244" fill="url(#titleFill)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="2">NGUYEN</text>
-  <text x="196" y="320" fill="url(#titleFill)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="2">THE NAM</text>
-  <text x="198" y="368" fill="#D7E8F6" fill-opacity="0.92" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" letter-spacing="0.4">
-    Full-stack builder  •  UI/UX learner  •  Dark
-  </text>
+        .stars {
+          inset: -5%;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+          background-repeat: no-repeat;
+        }
 
-  <g filter="url(#glow)">
-    <ellipse cx="1190" cy="246" rx="248" ry="42" transform="rotate(-9 1190 246)" fill="url(#ringGradient)" fill-opacity="0.34"/>
-  </g>
-  <ellipse cx="1190" cy="246" rx="220" ry="27" transform="rotate(-9 1190 246)" stroke="url(#ringGradient)" stroke-width="10" stroke-linecap="round" stroke-opacity="0.82"/>
+        .stars.one {
+          opacity: 0.92;
+          animation-name: starsDriftOne;
+          animation-duration: 28s;
+          background-image:
+            radial-gradient(circle at 8% 16%, rgba(255,255,255,.98) 0 1.8px, transparent 2.2px),
+            radial-gradient(circle at 16% 8%, rgba(155,255,245,.9) 0 2.2px, transparent 2.7px),
+            radial-gradient(circle at 28% 14%, rgba(255,255,255,.92) 0 1.6px, transparent 2px),
+            radial-gradient(circle at 41% 10%, rgba(255,255,255,.82) 0 1.8px, transparent 2.3px),
+            radial-gradient(circle at 58% 13%, rgba(255,255,255,.92) 0 1.8px, transparent 2.2px),
+            radial-gradient(circle at 71% 18%, rgba(145,251,244,.96) 0 2.4px, transparent 3px),
+            radial-gradient(circle at 83% 11%, rgba(147,235,255,.9) 0 2px, transparent 2.4px),
+            radial-gradient(circle at 92% 14%, rgba(255,211,170,.95) 0 1.8px, transparent 2.2px),
+            radial-gradient(circle at 78% 28%, rgba(255,255,255,.84) 0 1.3px, transparent 1.8px),
+            radial-gradient(circle at 88% 23%, rgba(255,255,255,.86) 0 1.2px, transparent 1.8px),
+            radial-gradient(circle at 12% 22%, rgba(255,255,255,.8) 0 1.4px, transparent 1.8px),
+            radial-gradient(circle at 35% 24%, rgba(255,255,255,.42) 0 1.6px, transparent 2px);
+        }
 
-  <g filter="url(#glow)">
-    <circle cx="1192" cy="246" r="126" fill="url(#planetFill)"/>
-  </g>
-  <circle cx="1192" cy="246" r="126" fill="url(#planetFill)"/>
+        .stars.two {
+          opacity: 0.5;
+          transform: scale(1.05);
+          animation-name: starsDriftTwo;
+          animation-duration: 42s;
+          background-image:
+            radial-gradient(circle at 9% 34%, rgba(255,255,255,.62) 0 1.2px, transparent 1.7px),
+            radial-gradient(circle at 22% 27%, rgba(255,255,255,.54) 0 1.1px, transparent 1.6px),
+            radial-gradient(circle at 38% 30%, rgba(255,255,255,.45) 0 1.2px, transparent 1.7px),
+            radial-gradient(circle at 53% 21%, rgba(255,255,255,.48) 0 1.1px, transparent 1.6px),
+            radial-gradient(circle at 67% 31%, rgba(255,255,255,.42) 0 1.1px, transparent 1.6px),
+            radial-gradient(circle at 86% 28%, rgba(255,255,255,.44) 0 1.1px, transparent 1.6px),
+            radial-gradient(circle at 94% 22%, rgba(255,255,255,.35) 0 1.1px, transparent 1.6px),
+            radial-gradient(circle at 30% 20%, rgba(255,190,147,.6) 0 1.1px, transparent 1.6px);
+        }
 
-  <g clip-path="url(#planetClip)">
-    <ellipse cx="1100" cy="164" rx="88" ry="54" fill="#FFFFFF" fill-opacity="0.24"/>
-    <ellipse cx="1218" cy="304" rx="156" ry="124" fill="url(#planetShadow)"/>
-    <path d="M1074 284C1128 250 1206 236 1284 242" stroke="#B8FFF8" stroke-opacity="0.24" stroke-width="10" stroke-linecap="round"/>
-    <path d="M1082 206C1130 172 1210 160 1278 170" stroke="#E9FFFD" stroke-opacity="0.22" stroke-width="8" stroke-linecap="round"/>
-  </g>
+        .dust {
+          inset: -10%;
+          filter: blur(70px);
+          opacity: 0.54;
+          animation: dustPulse 14s ease-in-out infinite;
+        }
 
-  <ellipse cx="1190" cy="246" rx="220" ry="27" transform="rotate(-9 1190 246)" stroke="#EAFDFF" stroke-opacity="0.68" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <path d="M974 278C1058 254 1126 246 1202 248" stroke="#F7FFFF" stroke-opacity="0.9" stroke-width="8" stroke-linecap="round"/>
-  <path d="M1224 248C1292 250 1352 258 1408 278" stroke="#F7FFFF" stroke-opacity="0.36" stroke-width="8" stroke-linecap="round"/>
+        .dust.one {
+          background:
+            radial-gradient(circle at 28% 30%, rgba(43, 214, 206, 0.28), transparent 18%),
+            radial-gradient(circle at 76% 24%, rgba(255, 163, 98, 0.24), transparent 18%);
+        }
 
-  <circle cx="1414" cy="326" r="28" fill="#FFD6B9" fill-opacity="0.18" stroke="#FFC086" stroke-opacity="0.5"/>
-  <circle cx="1414" cy="326" r="10" fill="#FFD1A8"/>
-  <circle cx="956" cy="188" r="8" fill="#89FFF2"/>
-  <circle cx="956" cy="188" r="18" fill="#89FFF2" fill-opacity="0.14"/>
+        .dust.two {
+          background:
+            radial-gradient(circle at 56% 82%, rgba(66, 98, 226, 0.18), transparent 18%),
+            radial-gradient(circle at 86% 56%, rgba(245, 124, 55, 0.08), transparent 14%);
+          animation-delay: -5s;
+        }
 
-  <rect x="170" y="414" width="202" height="30" rx="15" fill="#091426" fill-opacity="0.86" stroke="#6CE8DC" stroke-opacity="0.22"/>
-  <text x="196" y="434" fill="#D9EEF8" fill-opacity="0.84" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">SOFTWARE ENGINEERING</text>
+        .trail {
+          left: -10%;
+          width: 120%;
+          border-top-style: solid;
+          border-radius: 50%;
+          animation: orbitSweep 18s ease-in-out infinite;
+          opacity: 0.7;
+        }
+
+        .trail.one {
+          bottom: 58px;
+          height: 210px;
+          border-top-width: 2px;
+          border-top-color: rgba(109, 245, 229, 0.18);
+          transform: rotate(1deg);
+        }
+
+        .trail.two {
+          bottom: 74px;
+          height: 176px;
+          border-top-width: 2px;
+          border-top-color: rgba(255, 255, 255, 0.08);
+          transform: rotate(-4deg);
+          animation-delay: -5s;
+        }
+
+        .trail.three {
+          bottom: 36px;
+          height: 248px;
+          border-top-width: 2px;
+          border-top-color: rgba(100, 136, 255, 0.12);
+          transform: rotate(-8deg);
+          animation-delay: -9s;
+        }
+
+        .hero {
+          left: 108px;
+          top: 92px;
+          width: 690px;
+          z-index: 5;
+        }
+
+        .hero::before {
+          content: "";
+          position: absolute;
+          inset: -52px -78px -56px -52px;
+          border-radius: 64px;
+          background:
+            radial-gradient(circle at 26% 24%, rgba(61, 239, 226, 0.16), transparent 24%),
+            linear-gradient(90deg, rgba(7, 17, 37, 0.74), rgba(7, 17, 37, 0.08));
+          filter: blur(12px);
+          z-index: -1;
+        }
+
+        .eyebrow {
+          display: inline-flex;
+          align-items: center;
+          gap: 14px;
+          padding: 13px 22px;
+          border: 1px solid rgba(130, 247, 238, 0.2);
+          border-radius: 999px;
+          background: rgba(10, 20, 43, 0.72);
+          box-shadow: 0 0 0 1px rgba(255,255,255,0.04) inset;
+          color: rgba(227, 244, 255, 0.88);
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+        }
+
+        .dots {
+          display: inline-flex;
+          gap: 10px;
+          align-items: center;
+        }
+
+        .dots span {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          display: block;
+        }
+
+        .dots .a { background: #7ef7ee; }
+        .dots .b { background: #97e9ff; }
+        .dots .c { background: #ffb17b; }
+
+        h1 {
+          margin-top: 28px;
+          font-size: 92px;
+          line-height: 0.92;
+          letter-spacing: 2px;
+          font-weight: 800;
+          color: var(--text-0);
+          text-transform: uppercase;
+          text-shadow: 0 0 28px rgba(121, 250, 240, 0.08);
+        }
+
+        .subtitle {
+          margin-top: 26px;
+          color: var(--text-1);
+          font-size: 28px;
+          font-weight: 600;
+          letter-spacing: 0.2px;
+        }
+
+        .caption {
+          display: inline-flex;
+          align-items: center;
+          margin-top: 28px;
+          padding: 12px 28px;
+          border-radius: 999px;
+          border: 1px solid rgba(109, 245, 229, 0.18);
+          background: rgba(8, 18, 36, 0.78);
+          color: rgba(223, 241, 252, 0.84);
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 2.8px;
+          text-transform: uppercase;
+        }
+
+        .planet-scene {
+          right: 34px;
+          top: 50%;
+          width: 670px;
+          height: 452px;
+          transform: translateY(-50%);
+          perspective: 1400px;
+          z-index: 4;
+        }
+
+        .planet-aura {
+          position: absolute;
+          right: 132px;
+          top: 46px;
+          width: 386px;
+          height: 386px;
+          border-radius: 50%;
+          background:
+            radial-gradient(circle, rgba(111, 248, 236, 0.28) 0%, rgba(60, 207, 243, 0.16) 42%, rgba(44, 182, 246, 0.04) 70%, transparent 76%);
+          filter: blur(18px);
+          animation: auraPulse 10s ease-in-out infinite;
+        }
+
+        .earth {
+          position: absolute;
+          right: 164px;
+          top: 74px;
+          width: 308px;
+          height: 308px;
+          border-radius: 50%;
+          overflow: hidden;
+          transform: rotate(-12deg) translateZ(0);
+          transform-style: preserve-3d;
+          background:
+            radial-gradient(circle at 34% 28%, rgba(255,255,255,0.52) 0%, rgba(255,255,255,0.18) 14%, rgba(255,255,255,0.04) 24%, transparent 36%),
+            radial-gradient(circle at 60% 62%, rgba(33, 214, 245, 0.3), transparent 40%),
+            radial-gradient(circle at 50% 46%, #61ebf3 0%, #24b2d8 34%, #0d5384 66%, #041126 100%);
+          box-shadow:
+            0 0 42px rgba(85, 228, 245, 0.32),
+            inset -44px -52px 84px rgba(0, 0, 0, 0.66),
+            inset 18px 22px 28px rgba(255, 255, 255, 0.14);
+          animation: earthFloat 8.2s ease-in-out infinite;
+        }
+
+        .earth-surface,
+        .earth-clouds,
+        .earth-shadow,
+        .earth-shine,
+        .earth-atmosphere {
+          position: absolute;
+          inset: 0;
+          border-radius: 50%;
+        }
+
+        .earth-surface {
+          inset: -8%;
+          background-image:
+            var(--map),
+            linear-gradient(90deg, rgba(255,255,255,0.08) 0 8%, rgba(255,255,255,0) 18% 82%, rgba(255,255,255,0.08) 92%),
+            linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0) 34%, rgba(0,18,39,0.26) 100%);
+          background-repeat: repeat-x, no-repeat, no-repeat;
+          background-size: 690px 100%, 100% 100%, 100% 100%;
+          background-position: 0 50%, 0 0, 0 0;
+          mix-blend-mode: screen;
+          opacity: 0.76;
+          filter: saturate(1.08) contrast(1.06);
+          animation: earthSpin 18s linear infinite;
+        }
+
+        .earth-clouds {
+          inset: -10%;
+          background-image: var(--clouds);
+          background-repeat: repeat-x;
+          background-size: 760px 100%;
+          background-position: 0 50%;
+          opacity: 0.3;
+          mix-blend-mode: screen;
+          animation: cloudSpin 34s linear infinite;
+        }
+
+        .earth-shadow {
+          background:
+            radial-gradient(circle at 74% 60%, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.28) 32%, transparent 58%),
+            radial-gradient(circle at 84% 24%, rgba(0,0,0,0.36) 0%, transparent 30%);
+          mix-blend-mode: multiply;
+        }
+
+        .earth-shine {
+          background:
+            radial-gradient(circle at 30% 20%, rgba(255,255,255,0.4), transparent 22%),
+            radial-gradient(circle at 44% 30%, rgba(255,255,255,0.15), transparent 28%),
+            linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0) 36%);
+        }
+
+        .earth-atmosphere {
+          inset: -2px;
+          border: 1px solid rgba(219, 255, 252, 0.34);
+          box-shadow: 0 0 16px rgba(126, 247, 238, 0.18);
+        }
+
+        .ring {
+          inset: 0;
+          animation: ringFloat 10s ease-in-out infinite;
+          pointer-events: none;
+        }
+
+        .ring::before,
+        .ring::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 520px;
+          height: 118px;
+          border-radius: 50%;
+          transform: translate(-50%, -50%) rotate(-12deg);
+        }
+
+        .ring::before {
+          border: 8px solid rgba(235, 246, 255, 0.54);
+          border-left-color: rgba(126, 247, 238, 0.28);
+          border-right-color: rgba(255, 180, 122, 0.3);
+          box-shadow: 0 0 20px rgba(181, 248, 255, 0.16);
+        }
+
+        .ring::after {
+          border: 4px dashed rgba(255, 255, 255, 0.86);
+          border-left-color: rgba(138, 250, 243, 0.86);
+          border-right-color: rgba(255, 208, 164, 0.84);
+          opacity: 0.9;
+          animation: dashFlow 18s linear infinite;
+        }
+
+        .ring.back {
+          z-index: 1;
+          opacity: 0.72;
+        }
+
+        .ring.front {
+          z-index: 5;
+          clip-path: inset(50% 0 0 0);
+        }
+
+        .ring.front::before {
+          opacity: 0.98;
+        }
+
+        .ring.front::after {
+          opacity: 0.74;
+        }
+
+        .moon {
+          position: absolute;
+          border-radius: 50%;
+          animation: moonFloat 11s ease-in-out infinite;
+        }
+
+        .moon.main {
+          right: 78px;
+          top: 234px;
+          width: 60px;
+          height: 60px;
+          background:
+            radial-gradient(circle at 54% 48%, #ffd9b7 0 22%, #f4b275 23%, #8c4a27 100%);
+          box-shadow:
+            0 0 28px rgba(245, 156, 99, 0.24),
+            0 0 0 1px rgba(255, 202, 161, 0.4) inset;
+        }
+
+        .moon.glint {
+          right: 546px;
+          top: 110px;
+          width: 40px;
+          height: 40px;
+          background:
+            radial-gradient(circle, rgba(157,255,244,1) 0 28%, rgba(43, 148, 214, 0.8) 45%, rgba(43, 148, 214, 0) 62%);
+          box-shadow: 0 0 34px rgba(117, 255, 244, 0.22);
+          animation-duration: 8s;
+        }
+
+        @keyframes starsDriftOne {
+          from { transform: translate3d(0, 0, 0); }
+          to { transform: translate3d(-28px, -16px, 0); }
+        }
+
+        @keyframes starsDriftTwo {
+          from { transform: scale(1.05) translate3d(0, 0, 0); }
+          to { transform: scale(1.08) translate3d(26px, -22px, 0); }
+        }
+
+        @keyframes dustPulse {
+          0%, 100% { transform: scale(1); opacity: 0.42; }
+          50% { transform: scale(1.08); opacity: 0.6; }
+        }
+
+        @keyframes orbitSweep {
+          0%, 100% { transform: translateX(0) rotate(var(--trail-rot, 0deg)); }
+          50% { transform: translateX(22px) rotate(calc(var(--trail-rot, 0deg) + 1deg)); }
+        }
+
+        @keyframes earthSpin {
+          from { background-position: 0 50%, 0 0, 0 0; }
+          to { background-position: -690px 50%, 0 0, 0 0; }
+        }
+
+        @keyframes cloudSpin {
+          from { background-position: 0 50%; }
+          to { background-position: -760px 50%; }
+        }
+
+        @keyframes earthFloat {
+          0%, 100% { transform: translate3d(0, 0, 0) rotate(-12deg); }
+          50% { transform: translate3d(0, -10px, 0) rotate(-9deg); }
+        }
+
+        @keyframes auraPulse {
+          0%, 100% { transform: scale(1); opacity: 0.82; }
+          50% { transform: scale(1.06); opacity: 1; }
+        }
+
+        @keyframes ringFloat {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-6px); }
+        }
+
+        @keyframes dashFlow {
+          from { transform: translate(-50%, -50%) rotate(-12deg) rotate(0deg); }
+          to { transform: translate(-50%, -50%) rotate(-12deg) rotate(360deg); }
+        }
+
+        @keyframes moonFloat {
+          0%, 100% { transform: translate3d(0, 0, 0); }
+          50% { transform: translate3d(0, -8px, 0); }
+        }
+
+        .trail.one { --trail-rot: 1deg; }
+        .trail.two { --trail-rot: -4deg; }
+        .trail.three { --trail-rot: -8deg; }
+      </style>
+
+      <div class="scene">
+        <div class="space"></div>
+        <div class="stars one"></div>
+        <div class="stars two"></div>
+        <div class="dust one"></div>
+        <div class="dust two"></div>
+        <div class="trail one"></div>
+        <div class="trail two"></div>
+        <div class="trail three"></div>
+
+        <div class="hero">
+          <div class="eyebrow">
+            <span class="dots">
+              <span class="a"></span>
+              <span class="b"></span>
+              <span class="c"></span>
+            </span>
+            <span>Orbital Profile</span>
+          </div>
+          <h1>NGUYEN<br/>THE NAM</h1>
+          <div class="subtitle">Full-stack builder / UI-UX learner / Dark</div>
+          <div class="caption">Software Engineering</div>
+        </div>
+
+        <div class="planet-scene">
+          <div class="planet-aura"></div>
+          <div class="ring back"></div>
+          <div class="earth">
+            <div class="earth-surface"></div>
+            <div class="earth-clouds"></div>
+            <div class="earth-shadow"></div>
+            <div class="earth-shine"></div>
+            <div class="earth-atmosphere"></div>
+          </div>
+          <div class="ring front"></div>
+          <div class="moon main"></div>
+          <div class="moon glint"></div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
 </svg>

@@ -1,24 +1,31 @@
-<div align="center">
-  <img width="100%" src="./assets/header-universe.svg" alt="Nguyen The Nam universe header" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=14B8A6&center=true&vCenter=true&width=900&lines=console.boot(%22dark.profile%22);Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/munonguyen">
-    <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
-  </a>
-  <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
-  <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
-</div>
-
-<br />
+<table>
+  <tr>
+    <td width="58%" valign="middle">
+      <img width="100%" src="./oke1.gif" alt="Nguyen The Nam hero GIF" />
+    </td>
+    <td width="42%" valign="middle">
+      <h1>Nguyen The Nam</h1>
+      <p>
+        <strong>Full-stack builder / UI-UX learner / Dark</strong>
+      </p>
+      <br />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=14B8A6&center=false&vCenter=true&width=520&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
+      <br />
+      <br />
+      <a href="https://github.com/munonguyen">
+        <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
+      </a>
+      <br />
+      <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
+      <br />
+      <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
-    <td width="54%" valign="top">
+    <td width="72%" valign="top">
       <pre>
 ┌───────────────────────────── SYSTEM STATUS ─────────────────────────────┐
 │ Name      : Nguyen The Nam                                             │
@@ -29,13 +36,17 @@
 │ Current   : Turning small ideas into usable products                   │
 └─────────────────────────────────────────────────────────────────────────┘
       </pre>
+    </td>
+    <td width="28%" align="center" valign="top">
+      <img width="92%" src="./Working%20Work%20From%20Home%20GIF.gif" alt="Working work from home GIF" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
       <p>
         Student developer focused on software engineering, full-stack
         products, and clean interface design.
       </p>
-    </td>
-    <td width="46%" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=munonguyen&show_icons=true&hide_border=true&title_color=14B8A6&icon_color=F97316&text_color=64748B&bg_color=00000000&rank_icon=github" alt="GitHub stats card" />
     </td>
   </tr>
 </table>
@@ -67,6 +78,10 @@
 </div>
 
 ## 04 / ACTIVE DUNGEON RAIDS
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0ea5e9,100:67e8f9&height=120&section=header&text=DUNGEON%20EXPLORATION&fontSize=24&fontColor=ffffff&animation=twinkling" alt="Dungeon Exploration banner" />
+</div>
 
 <div align="center">
   <picture>
