@@ -66,7 +66,23 @@
   </a>
 </div>
 
-## 04 / ACTIVE METRICS
+## 04 / ACTIVE DUNGEON RAIDS
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,27,12&height=120&section=header&text=DUNGEON%20EXPLORATION&fontSize=24&fontColor=ffffff&animation=twinkling" alt="Dungeon Exploration banner" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/munonguyen/munonguyen/output/pacman-contribution-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/munonguyen/munonguyen/output/pacman-contribution-graph.svg" />
+    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/munonguyen/munonguyen/output/pacman-contribution-graph.svg" />
+  </picture>
+</div>
+
+---
+
+## 05 / ACTIVE METRICS
 
 <div align="center">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=munonguyen&hide_border=true&background=00000000&stroke=00000000&ring=14B8A6&fire=F97316&currStreakLabel=14B8A6&currStreakNum=F97316&sideNums=64748B&sideLabels=64748B&dates=94A3B8" alt="GitHub streak stats" />
@@ -77,13 +93,13 @@
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=munonguyen&bg_color=00000000&color=64748B&line=14B8A6&point=F97316&area=true&hide_border=true" alt="GitHub activity graph" />
 </div>
 
-## 05 / STACK LOADOUT
+## 06 / STACK LOADOUT
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,c,cpp,nodejs,react,nextjs,vue,angular,spring,mysql,mongodb,redis,firebase,aws,azure,figma,git,github,vscode&perline=8" alt="Tech stack icons" />
 </div>
 
-## 06 / MISSION BOARD
+## 07 / MISSION BOARD
 
 <div align="center">
   <a href="https://github.com/munonguyen/ToolMMO">
