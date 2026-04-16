@@ -69,10 +69,6 @@
 ## 04 / ACTIVE DUNGEON RAIDS
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0ea5e9,100:67e8f9&height=120&section=header&text=DUNGEON%20EXPLORATION&fontSize=24&fontColor=ffffff&animation=twinkling" alt="Dungeon Exploration banner" />
-</div>
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/munonguyen/munonguyen/output/pacman-contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/munonguyen/munonguyen/output/pacman-contribution-graph.svg" />
