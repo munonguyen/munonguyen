@@ -1,10 +1,28 @@
 <div align="center">
-  <img width="100%" src="./assets/hero-banner.gif" alt="Nguyen The Nam hero banner" />
+  <img width="100%" src="./oke1.gif" alt="Nguyen The Nam hero GIF" />
 </div>
+
+<h1 align="center">Nguyen The Nam</h1>
+
+<p align="center">
+  <strong>Full-stack builder / UI-UX learner / Dark</strong>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=F7B787&center=true&vCenter=true&width=760&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/munonguyen">
+    <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
+  </a>
+  <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
+</p>
 
 <table>
   <tr>
-    <td width="58%" valign="top">
+    <td width="64%" valign="top">
       <pre>
 ┌───────────────────────────── SYSTEM STATUS ─────────────────────────────┐
 │ Name      : Nguyen The Nam                                             │
@@ -15,27 +33,17 @@
 │ Current   : Turning small ideas into usable products                   │
 └─────────────────────────────────────────────────────────────────────────┘
       </pre>
+    </td>
+    <td width="36%" valign="top">
+      <h3>Intro</h3>
       <p>
         Student developer focused on software engineering, full-stack
         products, and clean interface design.
       </p>
-    </td>
-    <td width="42%" valign="top">
-      <h3>Intro</h3>
       <p>
-        I like turning small ideas into practical products, with clean UI
-        and steady full-stack growth.
+        I like turning small ideas into practical products, then refining
+        the flow, structure, and visual details until they feel usable.
       </p>
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=14B8A6&center=false&vCenter=true&width=520&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
-      <br />
-      <br />
-      <a href="https://github.com/munonguyen">
-        <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
-      </a>
-      <br />
-      <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
-      <br />
-      <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
     </td>
   </tr>
 </table>
