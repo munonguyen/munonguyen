@@ -1,19 +1,108 @@
-# munonguyen
-# 💫 About Me:
-## 👋 Hi there, I'm Nam<br><br>🎓 I'm a student passionate about Software Engineering and building real-world applications.  <br>💻 Currently working on academic projects and exploring full-stack development.  <br>🚀 Interested in building scalable systems, clean UI/UX, and meaningful products.<br><br>---<br><br>## 🧠 What I'm focusing on<br>- 📌 Improving problem-solving & system design skills  <br>- 📚 Learning modern web technologies  <br>- 🔧 Building projects to strengthen real-world experience  
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,50:14b8a6,100:f97316&text=NGUYEN%20THE%20NAM&fontAlign=50&fontAlignY=40&fontSize=42&fontColor=ffffff&desc=Full-stack%20builder%20%7C%20UI%2FUX%20learner%20%7C%20aka%20Dark&descAlign=50&descAlignY=60&animation=fadeIn" alt="Nguyen The Nam header" />
+</div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=14B8A6&center=true&vCenter=true&width=900&lines=console.boot(%22dark.profile%22);Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
+</div>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/muno1409) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/nang.nguyen.151283) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/namnguyenthe1995/) 
+<div align="center">
+  <a href="https://github.com/munonguyen">
+    <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
+  </a>
+  <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
+</div>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Gitea](https://img.shields.io/badge/Gitea-34495E?style=for-the-badge&logo=gitea&logoColor=5D9425) ![Gitee](https://img.shields.io/badge/Gitee-C71D23?style=for-the-badge&logo=gitee&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=munonguyen&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=munonguyen&theme=dracula&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=munonguyen&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br />
 
----
-[![](https://komarev.com/ghpvc/?username=munonguyen&icon=0&color=0)](https://visitcount.itsvg.in)
+<table>
+  <tr>
+    <td width="54%" valign="top">
+      <pre>
+┌───────────────────────────── SYSTEM STATUS ─────────────────────────────┐
+│ Name      : Nguyen The Nam                                             │
+│ Alias     : Dark                                                       │
+│ Role      : Student Developer                                          │
+│ Focus     : Software Engineering / Full-stack / UI/UX                  │
+│ Workflow  : Learn fast, build often, refine the details                │
+│ Current   : Turning small ideas into usable products                   │
+└─────────────────────────────────────────────────────────────────────────┘
+      </pre>
+      <p>
+        Student developer focused on software engineering, full-stack
+        products, and clean interface design.
+      </p>
+    </td>
+    <td width="46%" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=munonguyen&show_icons=true&hide_border=true&title_color=14B8A6&icon_color=F97316&text_color=64748B&bg_color=00000000&rank_icon=github" alt="GitHub stats card" />
+    </td>
+  </tr>
+</table>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 01 / ABOUT ME
+
+- Hi, I'm Nam. I enjoy building real-world applications and learning through projects.
+- I'm currently exploring full-stack development, system design, and practical UI/UX.
+- I want to build scalable systems, cleaner interfaces, and more meaningful products.
+
+## 02 / CURRENT FOCUS
+
+- Improving problem-solving and software engineering fundamentals.
+- Learning modern web technologies and refining product thinking.
+- Shipping projects that strengthen real-world development experience.
+
+## 03 / CONNECT
+
+<div align="center">
+  <a href="https://discord.gg/muno1409">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://www.facebook.com/nang.nguyen.151283">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://www.instagram.com/namnguyenthe1995/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</div>
+
+## 04 / ACTIVE METRICS
+
+<div align="center">
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=munonguyen&hide_border=true&background=00000000&stroke=00000000&ring=14B8A6&fire=F97316&currStreakLabel=14B8A6&currStreakNum=F97316&sideNums=64748B&sideLabels=64748B&dates=94A3B8" alt="GitHub streak stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munonguyen&layout=compact&hide_border=true&title_color=14B8A6&text_color=64748B&bg_color=00000000&exclude_repo=munonguyen" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=munonguyen&bg_color=00000000&color=64748B&line=14B8A6&point=F97316&area=true&hide_border=true" alt="GitHub activity graph" />
+</div>
+
+## 05 / STACK LOADOUT
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,c,cpp,nodejs,react,nextjs,vue,angular,spring,mysql,mongodb,redis,firebase,aws,azure,figma,git,github,vscode&perline=8" alt="Tech stack icons" />
+</div>
+
+## 06 / MISSION BOARD
+
+<div align="center">
+  <a href="https://github.com/munonguyen/ToolMMO">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=ToolMMO&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ToolMMO repository card" />
+  </a>
+  <a href="https://github.com/munonguyen/university-app-ui">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=university-app-ui&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="university-app-ui repository card" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/munonguyen/ShopMyPham">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=ShopMyPham&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ShopMyPham repository card" />
+  </a>
+  <a href="https://github.com/munonguyen/h-c-es6">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=h-c-es6&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="h-c-es6 repository card" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0ea5e9,50:14b8a6,100:f97316&text=Build%20Something%20Clean%20and%20Useful&fontSize=22&fontColor=ffffff&animation=fadeIn" alt="Footer banner" />
+</div>
