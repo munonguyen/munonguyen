@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0ea5e9,50:14b8a6,100:f97316&text=NGUYEN%20THE%20NAM&fontAlign=50&fontAlignY=40&fontSize=42&fontColor=ffffff&desc=Full-stack%20builder%20%7C%20UI%2FUX%20learner%20%7C%20aka%20Dark&descAlign=50&descAlignY=60&animation=fadeIn" alt="Nguyen The Nam header" />
+  <img width="100%" src="./assets/header-universe.svg" alt="Nguyen The Nam universe header" />
 </div>
 
 <div align="center">
