@@ -1,31 +1,10 @@
-<table>
-  <tr>
-    <td width="58%" valign="middle">
-      <img width="100%" src="./oke1.gif" alt="Nguyen The Nam hero GIF" />
-    </td>
-    <td width="42%" valign="middle">
-      <h1>Nguyen The Nam</h1>
-      <p>
-        <strong>Full-stack builder / UI-UX learner / Dark</strong>
-      </p>
-      <br />
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=14B8A6&center=false&vCenter=true&width=520&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
-      <br />
-      <br />
-      <a href="https://github.com/munonguyen">
-        <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
-      </a>
-      <br />
-      <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
-      <br />
-      <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img width="100%" src="./assets/hero-banner.gif" alt="Nguyen The Nam hero banner" />
+</div>
 
 <table>
   <tr>
-    <td width="72%" valign="top">
+    <td width="58%" valign="top">
       <pre>
 ┌───────────────────────────── SYSTEM STATUS ─────────────────────────────┐
 │ Name      : Nguyen The Nam                                             │
@@ -36,17 +15,27 @@
 │ Current   : Turning small ideas into usable products                   │
 └─────────────────────────────────────────────────────────────────────────┘
       </pre>
-    </td>
-    <td width="28%" align="center" valign="top">
-      <img width="92%" src="./Working%20Work%20From%20Home%20GIF.gif" alt="Working work from home GIF" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
       <p>
         Student developer focused on software engineering, full-stack
         products, and clean interface design.
       </p>
+    </td>
+    <td width="42%" valign="top">
+      <h3>Intro</h3>
+      <p>
+        I like turning small ideas into practical products, with clean UI
+        and steady full-stack growth.
+      </p>
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=14B8A6&center=false&vCenter=true&width=520&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
+      <br />
+      <br />
+      <a href="https://github.com/munonguyen">
+        <img src="https://img.shields.io/badge/GitHub-munonguyen-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
+      </a>
+      <br />
+      <img src="https://img.shields.io/github/followers/munonguyen?style=for-the-badge&color=14B8A6&labelColor=111827&logo=github&label=Followers" alt="GitHub followers" />
+      <br />
+      <img src="https://komarev.com/ghpvc/?username=munonguyen&style=for-the-badge&color=F97316" alt="Profile views" />
     </td>
   </tr>
 </table>
