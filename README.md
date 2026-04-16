@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=F7B787&center=true&vCenter=true&width=760&lines=Building+real-world+apps+with+clean+UI%2FUX;Learning+full-stack+development+by+shipping;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=900&color=F7B787&center=true&vCenter=true&width=640&lines=Building+usable+full-stack+products;Learning+by+shipping+real+projects;Open+to+collaboration+and+new+ideas" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -36,9 +36,9 @@
 
 <p align="center">
   Student developer focused on software engineering, full-stack products,
-  and clean interface design. I like turning small ideas into practical
-  products, then refining the flow, structure, and visual details until
-  they feel usable.
+  and clean interfaces.
+  <br />
+  I turn small ideas into usable products with steady refinement.
 </p>
 
 ## 01 / ABOUT ME
