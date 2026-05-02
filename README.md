@@ -87,7 +87,7 @@
 
 <div align="center">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=munonguyen&hide_border=true&background=00000000&stroke=00000000&ring=14B8A6&fire=F97316&currStreakLabel=14B8A6&currStreakNum=F97316&sideNums=64748B&sideLabels=64748B&dates=94A3B8" alt="GitHub streak stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munonguyen&layout=compact&hide_border=true&title_color=14B8A6&text_color=64748B&bg_color=00000000&exclude_repo=munonguyen" alt="Top languages" />
+  <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=munonguyen&layout=compact&hide_border=true&title_color=14B8A6&text_color=64748B&bg_color=00000000&exclude_repo=munonguyen" alt="Top languages" />
 </div>
 
 <div align="center">
@@ -104,19 +104,19 @@
 
 <div align="center">
   <a href="https://github.com/munonguyen/ToolMMO">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=ToolMMO&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ToolMMO repository card" />
+    <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=munonguyen&repo=ToolMMO&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ToolMMO repository card" />
   </a>
   <a href="https://github.com/munonguyen/university-app-ui">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=university-app-ui&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="university-app-ui repository card" />
+    <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=munonguyen&repo=university-app-ui&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="university-app-ui repository card" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/munonguyen/ShopMyPham">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=ShopMyPham&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ShopMyPham repository card" />
+    <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=munonguyen&repo=ShopMyPham&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="ShopMyPham repository card" />
   </a>
   <a href="https://github.com/munonguyen/h-c-es6">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=munonguyen&repo=h-c-es6&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="h-c-es6 repository card" />
+    <img width="49%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/pin/?username=munonguyen&repo=h-c-es6&hide_border=true&title_color=14B8A6&text_color=64748B&icon_color=F97316&bg_color=00000000" alt="h-c-es6 repository card" />
   </a>
 </div>
 
